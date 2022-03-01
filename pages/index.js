@@ -54,7 +54,7 @@ export default function Home({ blogposts }) {
         </h1>
         <br />
         <h5 className={styles.subtitle}>
-          Bienvenido/a al <a href="#">H.M. Blog!</a>
+          ¡Bienvenido/a al <a href="#">H.M. Blog!</a>
         </h5>
         <div className={styles.grid}>
           {blogposts.map((blog, i) => {
