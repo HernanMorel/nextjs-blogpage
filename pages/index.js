@@ -55,6 +55,7 @@ export default function Home({ blogposts }) {
         <br />
         <h5 className={styles.subtitle}>
           Bienvenido/a al <a href="#">H.M. Blog!</a>
+        **Todos los artículos del blog están escritos en español e inglés**
         </h5>
         <div className={styles.grid}>
           {blogposts.map((blog, i) => {
