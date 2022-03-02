@@ -2,4 +2,4 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-This is a blogpage that is created with the initial Next JS package. I used Strapi Cms along with Heroku, and vercel.
+This is a blogpage that is created with the initial Next JS package. I used Strapi CMS along with Heroku, and vercel.
