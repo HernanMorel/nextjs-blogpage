@@ -18,7 +18,7 @@ NextJs, al ser un framework de React, viene empaquetado con algunas característ
 
 ## Cómo Iniciar
 
-Este es un [Next.js](https://nextjs.org/) proyecto que se ha iniciado con  [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este es un proyecto [Next.js](https://nextjs.org/) que se ha iniciado con  [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ``` 
 # Clone this repository
