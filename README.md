@@ -1,50 +1,3 @@
-# Blog Personal
-
-Blog personal creado con NextJs y un CMS de Strapi. Este proyecto me resultó bastante desafiante al principio, ya que era la primera vez que cargaba un sistema de gestión de contenidos como el de Strapi. Utilicé Cloudinary como recurso para el almacenamiento de imágenes en la nube, como hice con el proyecto de Yelpcamp. Esto facilitó el intercambio rápido de todas las imágenes que utilicé.  Este blog destaca algunos de los temas que he ido aprendiendo, escrito tanto en inglés como en español, me ayudó a interiorizar aún más las lecciones que he adquirido en mi camino de desarrollo web.
-
-## Lecciones Aprendidas
-
-NextJs, al ser un framework de React, viene empaquetado con algunas características interesantes que aceleraron el desarrollo en el front-end de la aplicación. Opté por cambiar mínimamente los recursos de Vercel, manteniendo la misma paleta de colores y añadiendo pestañas y secciones para satisfacer mejor mis necesidades. Pasé la mayor parte de mi tiempo en este proyecto en la obtención de datos del CMS que actuó como back-end de la aplicación. A través de algunos recursos en línea como los del [foro Dev.to](https://dev.to/t/nextjs) y las páginas de documentación de Next Js, fui capaz de armar lo que se convirtió en la iteración final del proyecto. Aprendí a escribir y estructurar correctamente el Rich-Text a través del cliente CMS para que devuelva contenido y datos que se muestren bien en el front-end. Utilicé la CLI de Heroku para manejar los datos de Strapi, los convertí a una base de datos PostgreSQL, y luego inyecté esa información a la aplicación alojada en Vercel en el front-end.
-
-## Posibles Funciones Adicionales
-
-* En el futuro, se incluirán más artículos y temas.
-* Quiero añadir más ajustes al CSS y modificar la aplicación para incluir más recursos de las diferentes plataformas de aprendizaje que he estado utilizando.
-
-## Implementación
-
-[Este es un enlace externo a la aplicación](https://nextjs-blogpage.vercel.app/)
-
-
-## Cómo Iniciar
-
-Este es un proyecto [Next.js](https://nextjs.org/) que se ha iniciado con  [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-``` 
-# Clone this repository
-$ git clone https://github.com/HernanMorel/nextjs-blogpage
-
-# Go into the repository
-$ cd nextjs-blogpage
-
-# Remove current origin repository
-$ git remote remove origin
-
-```
-
-```
-# Install dependencies
-$ npm install
-
-# Start development server
-$ npm start
-
-```
-
-*ENG*
-
-
-
 
 # Personal Blog
 
@@ -79,6 +32,55 @@ $ git remote remove origin
 
 ```
 
+
+```
+# Install dependencies
+$ npm install
+
+# Start development server
+$ npm start
+
+```
+
+
+
+*Es*
+
+
+
+# Blog Personal
+
+Blog personal creado con NextJs y un CMS de Strapi. Este proyecto me resultó bastante desafiante al principio, ya que era la primera vez que cargaba un sistema de gestión de contenidos como el de Strapi. Utilicé Cloudinary como recurso para el almacenamiento de imágenes en la nube, como hice con el proyecto de Yelpcamp. Esto facilitó el intercambio rápido de todas las imágenes que utilicé.  Este blog destaca algunos de los temas que he ido aprendiendo, escrito tanto en inglés como en español, me ayudó a interiorizar aún más las lecciones que he adquirido en mi camino de desarrollo web.
+
+## Lecciones Aprendidas
+
+NextJs, al ser un framework de React, viene empaquetado con algunas características interesantes que aceleraron el desarrollo en el front-end de la aplicación. Opté por cambiar mínimamente los recursos de Vercel, manteniendo la misma paleta de colores y añadiendo pestañas y secciones para satisfacer mejor mis necesidades. Pasé la mayor parte de mi tiempo en este proyecto en la obtención de datos del CMS que actuó como back-end de la aplicación. A través de algunos recursos en línea como los del [foro Dev.to](https://dev.to/t/nextjs) y las páginas de documentación de Next Js, fui capaz de armar lo que se convirtió en la iteración final del proyecto. Aprendí a escribir y estructurar correctamente el Rich-Text a través del cliente CMS para que devuelva contenido y datos que se muestren bien en el front-end. Utilicé la CLI de Heroku para manejar los datos de Strapi, los convertí a una base de datos PostgreSQL, y luego inyecté esa información a la aplicación alojada en Vercel en el front-end.
+
+## Posibles Funciones Adicionales
+
+* En el futuro, se incluirán más artículos y temas.
+* Quiero añadir más ajustes al CSS y modificar la aplicación para incluir más recursos de las diferentes plataformas de aprendizaje que he estado utilizando.
+
+## Implementación
+
+[Este es un enlace externo a la aplicación](https://nextjs-blogpage.vercel.app/)
+
+
+## Cómo Iniciar
+
+Este es un proyecto [Next.js](https://nextjs.org/) que se ha iniciado con  [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+``` 
+# Clone this repository
+$ git clone https://github.com/HernanMorel/nextjs-blogpage
+
+# Go into the repository
+$ cd nextjs-blogpage
+
+# Remove current origin repository
+$ git remote remove origin
+
+```
 
 ```
 # Install dependencies
