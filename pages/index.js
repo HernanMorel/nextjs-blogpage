@@ -53,7 +53,7 @@ export default function Home({ blogposts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-    //the classNames are being injected with their respective styles from the css modules
+   {/*the classNames are being injected with their respective styles from the css modules*/}
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to the <a href="#">H.M. Blog!</a>
@@ -62,8 +62,8 @@ export default function Home({ blogposts }) {
         <h5 className={styles.subtitle}>
           ¡Bienvenido/a al <a href="#">H.M. Blog!</a>
         </h5>
-      /*this grid becomes a bit wonky on smaller devices,
-      must edit.*/
+     {/*this grid becomes a bit wonky on smaller devices,
+      must edit.*/}
         <div className={styles.grid}>
           {blogposts.map((blog, i) => {
             const { title, description, slug } = blog;
