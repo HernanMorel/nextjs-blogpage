@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import styles from '../styles/Blog.module.css'
 
+//small function to handle posts being fed from strapi
 function Blog({ description, title, slug }) {
     return (
         <Link href={"/posts/" + slug}>
