@@ -76,6 +76,7 @@ export default function Home({ blogposts }) {
             const { title, description, slug } = blog;
             //through the destructuring of variables, the fron end receives the data as it is filled in strapi.
             return <Blog title={title} description={description} slug={slug} key={i} />
+             {/*make sure to always inlcude a key when rendering more than one compondent from an array*/}
           })}
         </div>
       </main>
