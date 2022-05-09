@@ -72,6 +72,7 @@ export async function getStaticProps({ params }) {
         revalidate: 10
     };
 }
+{/*since blogbody is markdown, it wont display as is. You need to import a the reactmarkdown package that converts that to html*/}
 function Content({ title, blogbody, splash }) {
 
     return (
