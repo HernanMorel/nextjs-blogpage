@@ -5,7 +5,7 @@ import ContentWrapper from '../components/ContentWrapper'
 import Header from '../components/Header'
 import Blog from '../components/Blog'
 import Footer from '../components/Footer'
-
+//breakout as many components as possible, make it easier to find errors and debug if necessary 
 const URL = process.env.STRAPIBASEURL
 
 //getStaticProps generates HTML and JSON files, since the data is coming from strapi, it needs to be fed to the front-end through this method.
