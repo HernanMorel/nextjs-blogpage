@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from '../styles/Footer.module.css'
+{/*next image allows you to use an image as a component and it also optimizes them for faster rendering*/}
 
 function Footer() {
     return (
@@ -9,6 +10,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
             >
+                    {/*these css modules are vital to how this ends up looking, separating concerns*/}
                 Powered by{' '}
                 <span className={styles.logo}>
                     <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
