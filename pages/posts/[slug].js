@@ -4,12 +4,18 @@ import Footer from '../../components/Footer';
 import ReactMarkdown from "react-markdown";
 import styles from '../../styles/BlogPage.module.css'
 const URL = process.env.STRAPIBASEURL;
+/*important to note:naming this js file [] with brackets lets nextjs know that this is a dynamic route
+and it allows you to access the variable named slug
+*/
+/*gsp give you a template for static paths*/
+/*post is important since you're using graphql*/
 export async function getStaticPaths() {
     const fetchParams = {
         method: "POST",
         headers: {
             "content-type": "application/json"
         },
+        {/*here again you are parsing data through stringify*/}
         body: JSON.stringify({
             query: `
             {
