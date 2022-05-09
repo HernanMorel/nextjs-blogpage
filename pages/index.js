@@ -44,7 +44,7 @@ export async function getStaticProps(context) {
   return {
     props: data,
     revalidate: 10,
-    //revalidate/refresh the http cache will do so after 10 or so reloads.
+    {/*revalidate requests new information from the server, in this case, strapi, every 10 secs*/}
   };
 }
 //keep the vercel assests as they are, the cms implementation is what will be the most challenging part of this.
