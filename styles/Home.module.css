@@ -7,7 +7,7 @@
   align-items: center;
   height: 100vh;
 }
-
+/* keep in mind that this acts like a central hub for your compoments and modules.*/ 
 .main {
   padding: 5rem 0;
   flex: 1;
