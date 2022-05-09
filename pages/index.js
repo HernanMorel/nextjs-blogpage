@@ -65,7 +65,6 @@ export default function Home({ blogposts }) {
         //this grid isnt responsive on smaller devices, must edit.
         <div className={styles.grid}>
           //this will map through the title, description, and slug data from strapi
-          //through 
           {blogposts.map((blog, i) => {
             const { title, description, slug } = blog;
             //through the destructuring of variables, the fron end receives the data as it is filled in strapi.
